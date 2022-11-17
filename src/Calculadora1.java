@@ -1,9 +1,15 @@
+/*
+ * @autor: Oscar.S
+ * @Version: 1.0
+ * 2022
+ */
+
 import java.util.Scanner;
 
 public class Calculadora1 {
 
 	public static void main(String[] args) {
-		
+		// colores
 		String verde="\033[32m";
 		String rojo="\033[31m";
 		String amarillo ="\033[33m";
@@ -14,13 +20,13 @@ public class Calculadora1 {
 		
 
 		Scanner in = new Scanner(System.in);
-		// OPCIONES
+		// Titulo
 		System.out.println("╔═════════════════════╗");
 		System.out.println("║ Creado por Oscar.S  ║");
 		System.out.println("║    Calculadora      ║");
 		System.out.println("║      En Java        ║");
 		System.out.println("╚═════════════════════╝");
-		//System.out.println();
+		// OPCIONES
 		System.out.println("╔═════════════════════╗");
 		System.out.println("║      OPCIONES       ║");
 		System.out.println("║                     ║");
